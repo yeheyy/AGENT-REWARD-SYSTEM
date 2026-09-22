@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycby79xvbf8cLHF5OY-_nUGuspL6e7gy2fujRtmSbgPpH5NbaRu1OyLjSRioEoJHa8Mq_/exec";
+const API_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
 let CREDS = JSON.parse(localStorage.getItem("bonus_creds") || "null");
 let state = {user:{},settings:{},agents:[],players:[],nega:[],dashboard:{},users:[]};
 
